@@ -1,0 +1,22 @@
+{
+  "entity_count": 292,
+  "relation_count": 451,
+  "entity_types": {
+    "Paper": 100,
+    "Electrolyte": 63,
+    "Element": 25,
+    "Dopant": 24,
+    "SynthesisMethod": 45,
+    "Performance": 32,
+    "Stability": 3
+  },
+  "relation_types": {
+    "reports": 83,
+    "contains_element": 238,
+    "doped_with": 33,
+    "synthesized_by": 45,
+    "has_performance": 41,
+    "stability_is": 11
+  },
+  "review_status": "candidate_unverified"
+}

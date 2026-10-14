@@ -1,0 +1,16 @@
+{
+  "missing_files": [],
+  "sample_count": 100,
+  "sha256_matches": 100,
+  "record_count": 100,
+  "llm_methods": 99,
+  "fallbacks": 1,
+  "entities": 292,
+  "relations": 451,
+  "nt_lines": 451,
+  "labeled_n": 13,
+  "accuracy": 0.25,
+  "api_health_status": 200,
+  "api_query_status": 200,
+  "model_predict_smoke": 0
+}

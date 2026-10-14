@@ -1,0 +1,54 @@
+{
+  "sample_count": 100,
+  "record_count": 100,
+  "extraction_methods": {
+    "local:Qwen3.5-4B": 99,
+    "regex_fallback": 1
+  },
+  "extraction_status": {
+    "ok": 74,
+    "partial": 26
+  },
+  "stability_labels": {
+    "unclear": 86,
+    "stable": 8,
+    "unstable": 5,
+    "mixed": 1
+  },
+  "source_hash_matches": 100,
+  "entities": 292,
+  "relations": 451,
+  "model_metrics": {
+    "target": "air_stability (LLM/rule weak label; stable=1, unstable=0)",
+    "feature_scope": "elemental composition only",
+    "n_labeled": 13,
+    "class_counts": {
+      "unstable": 5,
+      "stable": 8
+    },
+    "review_status": "exploratory_weak_labels",
+    "evaluation": "stratified holdout",
+    "n_train": 9,
+    "n_test": 4,
+    "accuracy": 0.25,
+    "balanced_accuracy": 0.25,
+    "macro_f1": 0.2,
+    "confusion_matrix": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "test_sample_ids": [
+      "087",
+      "031",
+      "015",
+      "093"
+    ],
+    "roc_auc": 0.25
+  }
+}

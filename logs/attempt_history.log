@@ -1,0 +1,722 @@
+2026-10-14 00:31:00,798 INFO Loaded local LLM local:Qwen3.5-4B
+2026-10-14 00:31:14,681 ERROR LLM extraction failed for 001; fallback: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 57, in generate
+    return json.loads(m.group(0))
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+2026-10-14 00:31:28,053 ERROR LLM extraction failed for 002; fallback: No JSON object in model response
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 56, in generate
+    if not m: raise ValueError('No JSON object in model response')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No JSON object in model response
+2026-10-14 00:31:41,472 ERROR LLM extraction failed for 003; fallback: No JSON object in model response
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 56, in generate
+    if not m: raise ValueError('No JSON object in model response')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No JSON object in model response
+2026-10-14 00:31:54,789 ERROR LLM extraction failed for 004; fallback: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 57, in generate
+    return json.loads(m.group(0))
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+2026-10-14 00:32:07,921 ERROR LLM extraction failed for 005; fallback: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 57, in generate
+    return json.loads(m.group(0))
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+2026-10-14 00:32:21,230 ERROR LLM extraction failed for 006; fallback: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 57, in generate
+    return json.loads(m.group(0))
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+2026-10-14 00:32:34,417 ERROR LLM extraction failed for 007; fallback: No JSON object in model response
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 56, in generate
+    if not m: raise ValueError('No JSON object in model response')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No JSON object in model response
+2026-10-14 00:32:47,633 ERROR LLM extraction failed for 008; fallback: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 57, in generate
+    return json.loads(m.group(0))
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+2026-10-14 00:33:00,795 ERROR LLM extraction failed for 009; fallback: No JSON object in model response
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 56, in generate
+    if not m: raise ValueError('No JSON object in model response')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No JSON object in model response
+2026-10-14 00:33:13,982 ERROR LLM extraction failed for 010; fallback: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 57, in generate
+    return json.loads(m.group(0))
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+2026-10-14 00:33:13,987 INFO Extracted 010/100 papers
+2026-10-14 00:33:27,372 ERROR LLM extraction failed for 011; fallback: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 57, in generate
+    return json.loads(m.group(0))
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2026-10-14 00:33:40,571 ERROR LLM extraction failed for 012; fallback: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 57, in generate
+    return json.loads(m.group(0))
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+2026-10-14 00:33:53,829 ERROR LLM extraction failed for 013; fallback: No JSON object in model response
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 56, in generate
+    if not m: raise ValueError('No JSON object in model response')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No JSON object in model response
+2026-10-14 00:34:06,882 ERROR LLM extraction failed for 014; fallback: No JSON object in model response
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 56, in generate
+    if not m: raise ValueError('No JSON object in model response')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No JSON object in model response
+2026-10-14 00:34:20,073 ERROR LLM extraction failed for 015; fallback: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 57, in generate
+    return json.loads(m.group(0))
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+2026-10-14 00:34:33,225 ERROR LLM extraction failed for 016; fallback: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 57, in generate
+    return json.loads(m.group(0))
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+2026-10-14 00:34:46,245 ERROR LLM extraction failed for 017; fallback: No JSON object in model response
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 56, in generate
+    if not m: raise ValueError('No JSON object in model response')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No JSON object in model response
+2026-10-14 00:34:59,215 ERROR LLM extraction failed for 018; fallback: No JSON object in model response
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 56, in generate
+    if not m: raise ValueError('No JSON object in model response')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No JSON object in model response
+2026-10-14 00:35:12,247 ERROR LLM extraction failed for 019; fallback: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 57, in generate
+    return json.loads(m.group(0))
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+2026-10-14 00:35:25,376 ERROR LLM extraction failed for 020; fallback: No JSON object in model response
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 56, in generate
+    if not m: raise ValueError('No JSON object in model response')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No JSON object in model response
+2026-10-14 00:35:25,384 INFO Extracted 020/100 papers
+2026-10-14 00:35:38,607 ERROR LLM extraction failed for 021; fallback: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 57, in generate
+    return json.loads(m.group(0))
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+2026-10-14 00:35:51,938 ERROR LLM extraction failed for 022; fallback: No JSON object in model response
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 56, in generate
+    if not m: raise ValueError('No JSON object in model response')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No JSON object in model response
+2026-10-14 00:36:05,147 ERROR LLM extraction failed for 023; fallback: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 57, in generate
+    return json.loads(m.group(0))
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2026-10-14 00:36:18,137 ERROR LLM extraction failed for 024; fallback: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 57, in generate
+    return json.loads(m.group(0))
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+2026-10-14 00:36:30,995 ERROR LLM extraction failed for 025; fallback: No JSON object in model response
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 56, in generate
+    if not m: raise ValueError('No JSON object in model response')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No JSON object in model response
+2026-10-14 00:36:44,048 ERROR LLM extraction failed for 026; fallback: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 57, in generate
+    return json.loads(m.group(0))
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+2026-10-14 00:36:56,983 ERROR LLM extraction failed for 027; fallback: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 57, in generate
+    return json.loads(m.group(0))
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+2026-10-14 00:37:09,925 ERROR LLM extraction failed for 028; fallback: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 57, in generate
+    return json.loads(m.group(0))
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+2026-10-14 00:37:22,949 ERROR LLM extraction failed for 029; fallback: No JSON object in model response
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 56, in generate
+    if not m: raise ValueError('No JSON object in model response')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No JSON object in model response
+2026-10-14 00:37:36,149 ERROR LLM extraction failed for 030; fallback: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 57, in generate
+    return json.loads(m.group(0))
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+2026-10-14 00:37:36,150 INFO Extracted 030/100 papers
+2026-10-14 00:37:49,298 ERROR LLM extraction failed for 031; fallback: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 57, in generate
+    return json.loads(m.group(0))
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+2026-10-14 00:38:02,447 ERROR LLM extraction failed for 032; fallback: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 57, in generate
+    return json.loads(m.group(0))
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+2026-10-14 00:38:15,340 ERROR LLM extraction failed for 033; fallback: No JSON object in model response
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 56, in generate
+    if not m: raise ValueError('No JSON object in model response')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No JSON object in model response
+2026-10-14 00:38:28,321 ERROR LLM extraction failed for 034; fallback: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 57, in generate
+    return json.loads(m.group(0))
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+2026-10-14 00:38:41,354 ERROR LLM extraction failed for 035; fallback: No JSON object in model response
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 56, in generate
+    if not m: raise ValueError('No JSON object in model response')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No JSON object in model response
+2026-10-14 00:38:54,284 ERROR LLM extraction failed for 036; fallback: No JSON object in model response
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 56, in generate
+    if not m: raise ValueError('No JSON object in model response')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No JSON object in model response
+2026-10-14 00:39:07,284 ERROR LLM extraction failed for 037; fallback: No JSON object in model response
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 56, in generate
+    if not m: raise ValueError('No JSON object in model response')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No JSON object in model response
+2026-10-14 00:39:20,218 ERROR LLM extraction failed for 038; fallback: No JSON object in model response
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 56, in generate
+    if not m: raise ValueError('No JSON object in model response')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No JSON object in model response
+2026-10-14 00:39:33,333 ERROR LLM extraction failed for 039; fallback: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 57, in generate
+    return json.loads(m.group(0))
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+2026-10-14 00:39:46,588 ERROR LLM extraction failed for 040; fallback: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 57, in generate
+    return json.loads(m.group(0))
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+2026-10-14 00:39:46,593 INFO Extracted 040/100 papers
+2026-10-14 00:39:59,805 ERROR LLM extraction failed for 041; fallback: No JSON object in model response
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 56, in generate
+    if not m: raise ValueError('No JSON object in model response')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No JSON object in model response
+2026-10-14 00:40:12,735 ERROR LLM extraction failed for 042; fallback: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 57, in generate
+    return json.loads(m.group(0))
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+2026-10-14 00:40:25,650 ERROR LLM extraction failed for 043; fallback: No JSON object in model response
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 56, in generate
+    if not m: raise ValueError('No JSON object in model response')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No JSON object in model response
+2026-10-14 00:40:35,631 INFO Source integrity verified 100/100 copies
+2026-10-14 00:40:38,666 ERROR LLM extraction failed for 044; fallback: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 57, in generate
+    return json.loads(m.group(0))
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+2026-10-14 00:40:51,571 ERROR LLM extraction failed for 045; fallback: No JSON object in model response
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 56, in generate
+    if not m: raise ValueError('No JSON object in model response')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No JSON object in model response
+2026-10-14 00:41:04,558 ERROR LLM extraction failed for 046; fallback: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 57, in generate
+    return json.loads(m.group(0))
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+2026-10-14 00:41:17,619 ERROR LLM extraction failed for 047; fallback: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 57, in generate
+    return json.loads(m.group(0))
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+2026-10-14 00:41:30,814 ERROR LLM extraction failed for 048; fallback: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 57, in generate
+    return json.loads(m.group(0))
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+2026-10-14 00:41:44,126 ERROR LLM extraction failed for 049; fallback: No JSON object in model response
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 120, in main
+    obj=llm.generate(context)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 56, in generate
+    if not m: raise ValueError('No JSON object in model response')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No JSON object in model response
+2026-10-14 00:47:16,374 INFO Extracted 10/100 papers
+2026-10-14 00:47:55,045 INFO Extracted 20/100 papers
+2026-10-14 00:48:29,305 INFO Extracted 30/100 papers
+2026-10-14 00:48:40,730 ERROR LLM failed 032: no JSON in response: {"material_name":"Li-argyrodites","composition_formula":"Li6+xPxSxS5Cl0.5Br0.5","dopants":["Si"],"synthesis_method":"dry ball milling process","synthesis_conditions":null,"ionic_co
+Traceback (most recent call last):
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 70, in main
+    try: obj=llm.extract(ctx,r['paper_id']); data=obj if isinstance(obj,dict) else fallback(text)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/SSE_AI_Project/scripts/extract.py", line 38, in extract
+    if not m: raise ValueError('no JSON in response: '+answer[:180])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: no JSON in response: {"material_name":"Li-argyrodites","composition_formula":"Li6+xPxSxS5Cl0.5Br0.5","dopants":["Si"],"synthesis_method":"dry ball milling process","synthesis_conditions":null,"ionic_co
+2026-10-14 00:49:07,022 INFO Extracted 40/100 papers
+2026-10-14 00:49:43,803 INFO Extracted 50/100 papers
+2026-10-14 00:50:20,519 INFO Extracted 60/100 papers
+2026-10-14 00:51:03,012 INFO Extracted 70/100 papers
+2026-10-14 00:51:36,601 INFO Extracted 80/100 papers
+2026-10-14 00:52:13,708 INFO Extracted 90/100 papers
+2026-10-14 00:52:47,238 INFO Extracted 100/100 papers
+2026-10-14 00:52:47,243 INFO Extraction completed records=100 llm=local:Qwen3.5-4B
+2026-10-14 00:53:28,315 INFO KG built entities=292 relations=451
+2026-10-14 00:53:29,534 INFO Source integrity verified 100/100 copies
+2026-10-14 00:54:31,641 INFO Model done metrics={'target': 'air_stability (LLM/rule weak label; stable=1, unstable=0)', 'feature_scope': 'elemental composition only', 'n_labeled': 13, 'class_counts': {'unstable': 5, 'stable': 8}, 'review_status': 'exploratory_weak_labels', 'evaluation': 'stratified holdout', 'n_train': 9, 'n_test': 4, 'accuracy': 0.25, 'balanced_accuracy': 0.25, 'macro_f1': 0.2, 'confusion_matrix': [[1, 1], [2, 0]], 'test_sample_ids': ['087', '031', '015', '093'], 'roc_auc': 0.25}

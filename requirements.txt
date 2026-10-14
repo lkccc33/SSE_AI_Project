@@ -1,0 +1,1 @@
+pandas>=2.1\nscikit-learn>=1.4\njoblib>=1.3\n
